@@ -1,0 +1,87 @@
+﻿
+@media only screen and (min-width: 375px) {
+    body {
+        background: hsl(257, 40%, 49%) url(Images/bg-mobile.svg) no-repeat;
+        background-size: 100%;
+        margin: 0px;
+    }
+
+    button {
+        width: 50%;
+    }
+    #textSubbox {
+        text-align: center;
+        margin: 2vw 3vw 2vw;
+    }
+    header {
+        margin: 4vh 4vw;
+    }
+    #imgSubbox {
+        margin: 0vw 2vw 0vw 4vw;
+        text-align: center;
+    }
+    #iconSuppBox {
+        display: flex;
+        margin: 5vw;
+        float: right;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    body {
+        background: hsl(257, 40%, 49%) url(Images/bg-desktop.svg);
+        background-size: 100vw 100vh;
+    }
+    button {
+        width: 30%;
+        float: left;
+    }
+    #textSubbox {
+        text-align: left;
+    }
+    #mainBox {
+        grid-template-columns: 50% 50%;
+        margin: 5em auto;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    #iconSuppBox {
+        display: flex;
+        margin: 5vw;
+    }
+}
+#mainBox {
+    display: grid;
+}
+h1 {
+    margin: 2em auto 0em;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+button {
+    border: none;
+    color: hsl(257, 40%, 49%);
+    height: 3em;
+    margin: 1em auto;
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+    button:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+    }
+ion-icon {
+    font-size: 32px;
+    color: white;
+}
+    ion-icon:hover {
+        color: hsl(300, 69%, 71%);
+    }
